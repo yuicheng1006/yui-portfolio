@@ -1,8 +1,7 @@
-// exportPathMap: async function (defaultPathMap) {
-//   return {
-//   '/': { page: '/' },
-//   '/normal': { page: '/normal' },
-//   '/edit': { page: '/edit' },
-//   '/preview': { page: '/preview' }
-//   }
-//   }
+const path = require('path')
+
+module.exports = {
+  sassOptions: {
+    includePaths: [path.join(__dirname, 'styles')],
+  },
+}
