@@ -7,7 +7,7 @@ export default function Home() {
         <title>YUI CHENG</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
+      <div>welcome to YUI's WebSite</div>
 
       {/* // <footer className="footer">
       //   <a
