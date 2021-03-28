@@ -2,9 +2,6 @@
   "name": "yui-portfolio",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "12.x"
-  },
   "cacheDirectories": [".next/cache"],
   "scripts": {
     "dev": "next dev",
