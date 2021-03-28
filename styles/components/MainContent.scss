@@ -1,0 +1,44 @@
+#Main-wrap{
+  padding-top: 180px;
+  .main-box{
+    padding-bottom: 80px;
+  }
+  .main-info{
+    text-align: end;
+
+  }
+  .main-title{
+    font-weight: bold;
+    margin-bottom: 5px;
+    position: relative;
+    &::before{
+      content: '';
+      position: absolute;
+      width: 25px;
+      height: 1.3px;
+      background-color: #000000;
+      right: 0px;
+      top: -10px;
+    }
+  }
+  .main-category,.main-date{
+    color: #999;
+    font-family: 'Economica';
+    letter-spacing: 1px;
+  }
+  .main-works{
+    text-align: end;
+    margin:10px 0px;
+    img{
+      max-width: 100%;
+      width: 80%;
+    }
+  }
+  .main-detail{
+    width: 80%;
+    float: right;
+    p{
+      margin: 0px 0px 0px 5px;
+    }
+  }
+}

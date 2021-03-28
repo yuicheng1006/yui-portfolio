@@ -1,24 +1,30 @@
+import { useState, useEffect } from 'react';
 import Head from 'next/head'
+import Layout from'../components/Layout';
+// import About from '../components/About'
+// import Header from '../components/Header'
+import MainContent from '../components/MainContent'
+// import Menu from '../components/menu'
 
 export default function Home() {
+  const [showMenu,toggleShowMenu]=useState(false);
   return (
-    <div className="container">
+    <div className="wrap">
       <Head>
         <title>YUI CHENG</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"/>
       </Head>
-      <div>welcome to YUI's WebSite</div>
+      <Layout/>
+      <MainContent/>
 
-      {/* // <footer className="footer">
-      //   <a
-      //     href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-      //     target="_blank"
-      //     rel="noopener noreferrer"
-      //   >
-      //     Powered by{' '}
-      //     <img src="/vercel.svg" alt="Vercel Logo" className="logo"} />
-      //   </a>
-      // </footer> */}
+      {/* <About showMenu={showMenu}/>
+      <button className="btn show-menu-btn" onClick={()=>toggleShowMenu(!showMenu)}>About</button>
+      {showMenu&&(<button className="btn close-menu-btn" onClick={()=>toggleShowMenu(!showMenu)}>CLOSE</button>)}
+      <Header/>
+      <Menu/>
+      <MainContent/> */}
+
+      
     </div>
   )
 }

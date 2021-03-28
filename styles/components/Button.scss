@@ -1,0 +1,43 @@
+.btn{
+  border: none;
+  background: transparent;
+  position: fixed;
+  font-family:$fontFamily ;
+  cursor: pointer;
+  &:hover{
+    color: #333;
+    transition: .3s ease-in-out;
+  }
+}
+.show-menu-btn{
+  top: 20px;
+  left: 20px;
+  &::after{
+    @include iconbgc;
+    position: absolute;
+    content:'';
+    background-image: url('/down-arrow.png');
+    right: -15px;
+    top: 7px;
+  }
+  &:focus{
+    outline: none;
+  }
+}
+.close-menu-btn{
+  z-index: 99;
+  top: 0px;
+  left: 20px;
+  animation: close-btn-animate 1s forwards;
+  &::after{
+    @include iconbgc;
+    position: absolute;
+    content:'';
+    background-image: url('/up-arrow.png');
+    right: -15px;
+    top: 7px;
+  }
+  :focus{
+    outline: none;
+  }
+}

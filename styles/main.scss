@@ -1,10 +1,19 @@
 // 變數
-@import 'abstract/globals.scss';
 @import 'abstract/variables.scss';
 @import 'abstract/mixins.scss';
 
-// components & pages
-@import 'components/Layout.scss';
+// 全域設定
+@import 'abstract/globals.scss';
 
-// mobile
+
+// components
+@import 'components/Layout.scss';
+@import 'components/Button.scss';
+@import 'components/Menu.scss';
+@import 'components/MainContent.scss';
+
+// pages
+
+// base
+@import 'base/animate.scss';
 @import 'base/mediaqueries.scss';

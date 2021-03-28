@@ -1,0 +1,58 @@
+#Menu{
+  width: 100%;
+  ul{
+    list-style: none;
+    padding: 0px;
+  }
+  .web-menu{
+    position: fixed;
+    bottom: 0px;
+    left: 20px;
+    li{
+      line-height: 35px;
+      &:hover{
+        @include hover;
+      }
+    }
+    
+  }
+  .mobile-menu{
+    display: none;
+    position: fixed;
+    right: 20px;
+    img{
+      width: 30px;
+      cursor: pointer;
+    }
+    &:hover{
+      @include hover;
+    }
+  }
+  .ham-menu{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    right: -110%;
+    top: 50px;
+    z-index: 999;
+    background: #111;
+    text-align: center;
+    padding-top: 80px;
+    transition: all 0.3s ease;
+    
+  }
+  .ham-menu.active{
+    display: block;
+    right: 0;
+  }
+  .ham-menu li{
+    color: #fff;
+    cursor: pointer;
+    margin: 30px 0px;
+    font-size: 18px;
+  }
+  .ham-menu li a{
+    color: #fff !important;
+  }
+}
+

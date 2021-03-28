@@ -1,0 +1,12 @@
+@mixin iconbgc {
+  width: 10px;
+    height: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+@mixin hover {
+  opacity: 0.7;
+  transition: .5s ease-in-out;
+}
