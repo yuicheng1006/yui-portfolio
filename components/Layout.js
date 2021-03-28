@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import About from '../components/About'
 import Header from '../components/Header'
-import Menu from '../components/menu'
+import Menu from '../components/Menu'
 import Top from '../components/Top'
 
 export default function Home() {
