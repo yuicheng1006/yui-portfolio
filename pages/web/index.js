@@ -4,7 +4,6 @@ import Layout from'../../components/Layout';
 import MainContent from '../../components/MainContent'
 
 export default function Home() {
-  const [showMenu,toggleShowMenu]=useState(false);
   return (
     <div className="wrap">
       <Head>

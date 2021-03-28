@@ -7,7 +7,6 @@ import MainContent from '../components/MainContent'
 // import Menu from '../components/menu'
 
 export default function Home() {
-  const [showMenu,toggleShowMenu]=useState(false);
   return (
     <div className="wrap">
       <Head>
