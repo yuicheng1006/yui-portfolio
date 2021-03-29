@@ -12,6 +12,7 @@ export default function Home() {
       <Head>
         <title>YUI CHENG</title>
         <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"/>
+        
       </Head>
       <Layout/>
       <MainContent/>
