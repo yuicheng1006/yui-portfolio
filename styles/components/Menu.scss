@@ -20,6 +20,7 @@
     display: none;
     position: fixed;
     right: 20px;
+    z-index: 9;
     img{
       width: 30px;
       cursor: pointer;
@@ -39,6 +40,7 @@
     text-align: center;
     padding-top: 80px;
     transition: all 0.3s ease;
+    margin-top: 0px;
     
   }
   .ham-menu.active{

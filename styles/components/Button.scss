@@ -3,6 +3,7 @@
   background: transparent;
   position: fixed;
   font-family:$fontFamily ;
+  z-index: 8;
   cursor: pointer;
   &:hover{
     color: #333;
@@ -25,7 +26,7 @@
   }
 }
 .close-menu-btn{
-  z-index: 99;
+  
   top: 0px;
   left: 20px;
   animation: close-btn-animate 1s forwards;
