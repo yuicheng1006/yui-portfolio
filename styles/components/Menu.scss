@@ -1,35 +1,34 @@
-#Menu{
+#Menu {
   width: 100%;
-  ul{
+  ul {
     list-style: none;
     padding: 0px;
   }
-  .web-menu{
+  .web-menu {
     position: fixed;
     bottom: 0px;
     left: 20px;
-    li{
+    li {
       line-height: 35px;
-      &:hover{
+      &:hover {
         @include hover;
       }
     }
-    
   }
-  .mobile-menu{
+  .mobile-menu {
     display: none;
     position: fixed;
     right: 20px;
     z-index: 9;
-    img{
+    img {
       width: 30px;
       cursor: pointer;
     }
-    &:hover{
+    &:hover {
       @include hover;
     }
   }
-  .ham-menu{
+  .ham-menu {
     position: fixed;
     height: 100vh;
     width: 100vw;
@@ -41,20 +40,18 @@
     padding-top: 80px;
     transition: all 0.3s ease;
     margin-top: 0px;
-    
   }
-  .ham-menu.active{
+  .ham-menu.active {
     display: block;
     right: 0;
   }
-  .ham-menu li{
+  .ham-menu li {
     color: #fff;
     cursor: pointer;
     margin: 30px 0px;
     font-size: 18px;
   }
-  .ham-menu li a{
+  .ham-menu li a {
     color: #fff !important;
   }
 }
-

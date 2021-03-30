@@ -1,18 +1,17 @@
-#Main-wrap{
+#Main-wrap {
   padding-top: 180px;
-  .main-box{
+  .main-box {
     padding-bottom: 80px;
   }
-  .main-info{
+  .main-info {
     text-align: end;
-
   }
-  .main-title{
+  .main-title {
     font-weight: bold;
     margin-bottom: 5px;
     position: relative;
-    &::before{
-      content: '';
+    &::before {
+      content: "";
       position: absolute;
       width: 25px;
       height: 1.3px;
@@ -21,24 +20,25 @@
       top: -10px;
     }
   }
-  .main-category,.main-date{
+  .main-category,
+  .main-date {
     color: #999;
-    font-family: 'Economica';
+    font-family: "Economica";
     letter-spacing: 1px;
   }
-  .main-works{
+  .main-works {
     text-align: end;
-    margin:10px 0px;
-    img{
+    margin: 10px 0px;
+    img {
       max-width: 100%;
       width: 80%;
     }
   }
-  .main-detail{
+  .main-detail {
     width: 80%;
     float: right;
     word-break: break-all;
-    p{
+    p {
       margin: 0px 0px 0px 5px;
     }
   }
