@@ -25,7 +25,7 @@ export const collection = [
       },
       {
         type: "img",
-        url: "https://imgur.com/0o14IKG.gif",
+        url: "https://imgur.com/k2bzbfW.gif",
       },
     ],
     content: "",
