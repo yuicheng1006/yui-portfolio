@@ -6,7 +6,7 @@
     ".next/cache"
   ],
   "engines": {
-    "node": "12.x"
+    "node": "22.x"
   },
   "scripts": {
     "dev": "next dev",
