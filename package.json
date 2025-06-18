@@ -12,17 +12,19 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start -p $PORT",
-    "heroku-postbuild": "npm run build",
     "preexport": "next build",
     "export": "next export",
     "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
     "aos": "^2.3.4",
-    "next": "10.0.9",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "next": "15.3.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-ga": "^3.3.0",
     "sass": "^1.32.8"
+  },
+  "overrides": {
+    "postcss": "8.4.31"
   }
 }
