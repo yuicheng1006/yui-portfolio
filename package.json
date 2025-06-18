@@ -11,10 +11,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p $PORT",
-    "preexport": "next build",
-    "export": "next export"
-    
+    "start": "next start"
   },
   "dependencies": {
     "aos": "^2.3.4",
